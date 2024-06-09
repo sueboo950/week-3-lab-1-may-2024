@@ -3,24 +3,44 @@
     <title>Learning CSS</title>
     <style>
       h1 {
-        color: red;
+        color: red; font-size: large
       }
 
       p {
-        margin: 32px;
+        margin: 32px; font-style: normal;
+      }
+
+      ul{
+        font-style: normal; list-style: armenian; text-size-adjust: "30em"
       }
 
       button {
+        font-size: smaller
       }
 
-      /* TODO: add styles for header  */
-      
-      /* TODO: add styles for footer  */
+      header{
+        font-size: x-large
+      }
+       
+       footer{
+        font-size: small;
+      }
 
       .paragraph-1 {
         background-color: pink;
       }
-    </style>
+
+      .heading{
+        background-color: aqua;
+      }
+
+      main{
+        font-size: nomal; font-size: large; font-family: 'Times New Roman', Times, serif; 
+      }
+      table{
+        border-color: blueviolet; border-left: 0cap; border-style: groove;
+      }
+      </style>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -28,8 +48,12 @@
       <h1 style="text-decoration: underline">I like cats!
       </h1>
     </header>
+    <div>
+      <h6>Bogalusa</h6>
+        <p>have a huge papermill</p>
+    </div>
     <main>
-      <p class="paragraph-1" style="">
+      <p class="paragraph-1" style="font-stretch: condensed;">
         <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -37,7 +61,7 @@
         aliquam etiam.    
       </p>
     
-      <p style="">
+      <p style="font-family: 'Times New Roman', Times, serif;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -49,7 +73,7 @@
         erat nam at lectus urna duis.
       </p>
     
-      <p style="">
+      <p style="font-size: large;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -60,25 +84,33 @@
         vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
         erat nam at lectus urna duis.
       </p>
-    
+    <ol style="background-color: pink; font-family: 'Times New Roman', Times, serif;"">
+        <li>barbie</li>
+        <li>barbie and ken love eachother</li>
+        <li>barbie dreamhouses are pink</li>
+    </ol>
       <table>
         <tr>
-          <th style="">item</th>
-          <th style="">price</th>
+          <th style="font-family: 'Times New Roman', Times, serif;">item</th>
+          <th style="font-style: normal;">price</th>
         </tr>
         <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
+          <td style="font-family: 'Times New Roman', Times, serif;">hotwheels car</td>
+          <td style="font-style: normal;">$4.99</td>
         </tr>
         <tr>
-          <td style="">
+          <td style="font-family: 'Times New Roman', Times, serif;">
             Cabbage patch doll
           </td>
-          <td style="">$1.99</td>
+          <td style="font-family: 'Times New Roman', Times, serif;">$1.99</td>
+        </tr>
+        <tr>
+          <td style="font-style: normal;">gi joe</td>
+          <td style="font-size: large;">$1.50</td>
         </tr>
       </table>
     
-      <button style="">Buy Now!</button>
+      <button style="font-family: 'Times New Roman', Times, serif;">Buy Now!</button>
     </main>
   
     <nav>
